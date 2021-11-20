@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Cameo.Enums;
+using Cameo;
 
 namespace Cameo.NonMono
 {
@@ -48,7 +48,7 @@ namespace Cameo.NonMono
             shufflePile();
         }
 
-        public Card Draw(EPile pile)
+        public Card Draw(EPile pile = EPile.DeckPile)
         {
             Card card = new Card();
 
@@ -77,6 +77,5 @@ namespace Cameo.NonMono
         {
             _discardPile.Add(newCard);
         }
-
     }
 }

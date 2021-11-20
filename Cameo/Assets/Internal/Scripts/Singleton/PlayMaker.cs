@@ -2,7 +2,6 @@
 using UnityEngine;
 using Cameo.Mono;
 using Cameo.NonMono;
-using Cameo.Enums;
 
 
 namespace Cameo.Singleton

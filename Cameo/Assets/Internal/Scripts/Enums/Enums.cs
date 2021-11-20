@@ -1,4 +1,4 @@
-﻿namespace Cameo.Enums
+﻿namespace Cameo
 {
     public enum ESuits
     {
@@ -40,6 +40,14 @@
         DrawCard,
         DiscardCard,
         UsePower
+    }
+
+    public enum ERoundPhase
+    {
+        Start,
+        Running,
+        Cameo,
+        End
     }
 
 }

@@ -82,7 +82,7 @@ namespace Cameo.Mono
             _spriteRenderer = GetComponent<SpriteRenderer>();
             Card = card;
             _cardFront = CardSpriteFetcher.FetchSprite(Card);
-            _cardBack = CardSpriteFetcher.FetchSprite(new Card(Enums.ESuits.blank, Enums.EValues.defaultNull));
+            _cardBack = CardSpriteFetcher.FetchSprite(new Card(ESuits.blank, EValues.defaultNull));
             _activeSprite = _cardBack;
             _spriteRenderer.sprite = _activeSprite;
         }

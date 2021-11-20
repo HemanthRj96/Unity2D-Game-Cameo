@@ -1,7 +1,4 @@
-﻿using Cameo.Mono;
-using Cameo.Enums;
-
-namespace Cameo.NonMono
+﻿namespace Cameo.NonMono
 {
     [System.Serializable]
     public struct Card
